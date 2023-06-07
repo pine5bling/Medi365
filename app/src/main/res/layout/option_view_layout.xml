@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvOptionLabel"
+        style="@style/StyleBlueText16SemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:text="@string/label" />
+
+    <RelativeLayout
+        android:id="@+id/rlOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white_bg_stroke_blue_9_corner_24"
+        android:paddingHorizontal="@dimen/dimen_20">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOptionContent"
+            style="@style/StyleBlue10Text16SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4"
+            android:paddingVertical="@dimen/dimen_10"
+            android:text="@string/all" />
+
+        <ImageView
+            android:id="@+id/ivOptionDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_option_down" />
+
+    </RelativeLayout>
+
+</LinearLayout>

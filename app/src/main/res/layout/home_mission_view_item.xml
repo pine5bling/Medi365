@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_94"
+            android:background="@color/blue" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_14"
+            android:layout_marginBottom="@dimen/dimen_26"
+            app:cardCornerRadius="@dimen/dimen_corner_16"
+            app:cardElevation="@dimen/dimen_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_doctor" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/doctor" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_clinic" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/clinic" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_hospital" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/hospital" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1"
+                    android:background="@color/green_divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_specialist" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/specialist" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_mep" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/mep" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_pharmacy" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/pharmacy" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_24"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_banner" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/llNewsContainer"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_banner" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dimen_8"
+        android:id="@+id/tvNewsName"
+        style="@style/StyleBlue10Text16SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_12"
+        tools:text="Chương trình chào hè của Bệnh viện Thu Cúc" />
+
+    <TextView
+        android:id="@+id/tvNewsContent"
+        style="@style/StyleGreenText14Regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_12"
+        android:ellipsize="end"
+        android:maxLines="5"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel maximus orci. Praesent libero erat, hendrerit at sem ac, ultrices pellentesque risus. Praesent in urna ac leo auctor tristique sollicitudin a odio. Nulla facilisi. Curabitur et auctor mauris. Integer at ipsum vitae leo auctor maximus a eget risus." />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_12"
+        android:layout_marginTop="@dimen/dimen_8">
+
+        <TextView
+            android:id="@+id/tvNewsTime"
+            style="@style/Style_GreenText12Regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="30 phút trước" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_2"
+            android:src="@drawable/ic_watch"
+            app:layout_constraintEnd_toStartOf="@id/tvNewsNumberWatch"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dimen_2"
+            android:id="@+id/tvNewsNumberWatch"
+            style="@style/StyleMediMainText12RegularItalic"
+            android:layout_width="@dimen/dimen_20"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:layout_marginVertical="@dimen/dimen_12"
+        android:background="@color/_green" />
+
+</LinearLayout>

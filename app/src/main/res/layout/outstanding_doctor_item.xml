@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dimen_250"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dimen_8"
+    app:cardElevation="@dimen/dimen_4"
+    android:paddingTop="@dimen/dimen_4"
+    app:cardCornerRadius="@dimen/dimen_12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4">
+
+            <ImageView
+                android:id="@+id/ivDoctorAvatar"
+                android:layout_width="@dimen/dimen_82"
+                android:layout_height="@dimen/dimen_82"
+                android:src="@drawable/ic_doctor_male" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_12"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDoctorName"
+                    style="@style/StyleGreenText14Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="TS.Nguyễn Văn A" />
+
+                <TextView
+                    android:id="@+id/tvDoctorPosition"
+                    style="@style/StyleGreenLight10Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineHeight="@dimen/dimen_14"
+                    tools:text="Trưởng khoa tiêu hóa bệnh viện 108" />
+
+                <TextView
+                    android:id="@+id/tvDoctorDepartment"
+                    style="@style/StyleMediMainText12SemiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Tiêu hóa - Gan mật" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_10"
+                        android:layout_height="@dimen/dimen_12"
+                        android:layout_marginStart="@dimen/dimen_4"
+                        android:layout_marginTop="@dimen/dimen_2"
+                        android:src="@drawable/ic_location" />
+
+                    <TextView
+                        android:id="@+id/tvDoctorAdress"
+                        style="@style/StyleMGreenDark10Regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_6"
+                        android:lineHeight="@dimen/dimen_14"
+                        tools:text="265 Giải Phóng, Hai Bà Trưng, Hà Nội" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen_18"
+                        android:layout_height="@dimen/dimen_18"
+                        android:layout_gravity="center"
+                        android:paddingTop="@dimen/dimen_4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_price" />
+
+                    <TextView
+                        android:id="@+id/tvDoctorPrice"
+                        style="@style/StyleRed10SemiBold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_2"
+                        tools:text="250.000đ" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_20"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:layout_marginBottom="@dimen/dimen_12"
+            android:orientation="horizontal">
+
+            <com.thomnt.medi365.widget.MissionView
+                android:id="@+id/mvDoctorBooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:mv_background="@drawable/shape_rectangle_white_bg_color_booking_stroke_corner_12"
+                app:mv_icon="@drawable/ic_booking"
+                app:mv_text="@string/booking"
+                app:mv_show_text="true"
+                app:mv_text_color="@color/color_btn_booking" />
+
+            <com.thomnt.medi365.widget.MissionView
+                android:id="@+id/mvDoctorAdvisa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_16"
+                android:layout_weight="1"
+                app:mv_background="@drawable/shape_rectangle_white_bg_color_advise_stroke_corner_12"
+                app:mv_icon="@drawable/ic_advise"
+                app:mv_text="@string/advise"
+                app:mv_show_text="true"
+                app:mv_text_color="@color/color_btn_advise" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

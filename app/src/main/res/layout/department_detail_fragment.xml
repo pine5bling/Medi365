@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.thomnt.medi365.widget.HeaderView
+        android:id="@+id/hvDeptDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hv_center_text="Cơ xương khớp"
+        app:hv_left_icon="@drawable/ic_back_white"
+        app:hv_show_left_icon="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.thomnt.medi365.widget.SearchView
+        android:id="@+id/svDeptDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/hvDeptDetail" />
+
+    <com.thomnt.medi365.widget.TabView
+        android:id="@+id/tabVDeptDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_14"
+        android:layout_marginTop="@dimen/dimen_18"
+        app:layout_constraintTop_toBottomOf="@id/svDeptDetail"
+        app:tv_text_first="Bác sĩ"
+        app:tv_show_center_second="false"
+        app:tv_text_fourth="Bệnh viện"
+        app:tv_text_second="Phòng khám" />
+
+    <com.thomnt.medi365.widget.CustomViewPager
+        android:id="@+id/vpDeptDetail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabVDeptDetail">
+
+    </com.thomnt.medi365.widget.CustomViewPager>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

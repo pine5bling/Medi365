@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iHome"
+        android:icon="@drawable/icon_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/iCalender"
+        android:icon="@drawable/icon_calender"
+        android:title="@string/calender" />
+
+    <item
+        android:id="@+id/iNews"
+        android:icon="@drawable/icon_news"
+        android:title="@string/news" />
+
+    <item
+        android:id="@+id/iSearch"
+        android:icon="@drawable/icon_search"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/iMenu"
+        android:icon="@drawable/icon_menu"
+        android:title="@string/menu" />
+
+</menu>

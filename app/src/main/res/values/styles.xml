@@ -1,0 +1,296 @@
+<resources>
+
+    <style name="StyleWhiteText16SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleWhiteText20SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_20</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleBlueText16SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="StyleBlue10Text16SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/blue_10</item>
+    </style>
+
+    <style name="StyleBlue2Text14SBold">
+        <item name="fontFamily">@font/svn_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/blue_2</item>
+    </style>
+
+    <style name="StyleMediMainText18Bold">
+        <item name="fontFamily">@font/svn_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_18</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
+    <style name="StyleMediMainText12RegularItalic">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
+    <style name="StyleGreenText14Bold">
+        <item name="fontFamily">@font/svn_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="StyleGreenText14Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="Style_GreenText12Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/_green</item>
+    </style>
+
+    <style name="StyleGreenText16Bold">
+        <item name="fontFamily">@font/svn_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="StyleGreenText14SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="StyleGreenText16SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="StyleGreenLight10Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_10</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+    <style name="StyleGreenLight12Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+    <style name="StyleGreenLight14Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+
+    <style name="StyleMediMain12Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
+    <style name="StyleMediMainText12SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
+    <style name="StyleMediMainText12Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
+    <style name="StyleMGreenDark10Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_10</item>
+        <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="StyleMGreenDark12Regular">
+        <item name="fontFamily">@font/svn_regular</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="StyleRed10SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_10</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="StyleRed18SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_18</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="StyleRed14SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="StyleDivider14SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/divider</item>
+    </style>
+
+    <style name="StyleDivider12SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/divider</item>
+    </style>
+
+    <style name="StyleText12SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+    </style>
+
+
+    <style name="CircleImageView">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Corner8ImageView">
+        <item name="cornerSize">8%</item>
+    </style>
+
+    // BottomMainView
+
+    <style name="BottomMainViewFrame">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dimen_56</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="BottomMainViewIcon">
+        <item name="android:layout_width">@dimen/dimen_24</item>
+        <item name="android:layout_height">@dimen/dimen_24</item>
+    </style>
+
+    <style name="BottomMainViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimen_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/dimen_text_size_12</item>
+        <item name="android:textColor">@color/neutral_7</item>
+        <item name="android:fontFamily">@font/svn_medium</item>
+    </style>
+
+    //HomeMissionView
+
+    <style name="HomeMissionViewFrame">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dimen_94</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HomeMissionViewIcon">
+        <item name="android:layout_width">@dimen/dimen_60</item>
+        <item name="android:layout_height">@dimen/dimen_60</item>
+        <item name="android:layout_marginTop">@dimen/dimen_6</item>
+    </style>
+
+    <style name="HomeMissionViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dimen_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/dimen_text_size_14</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:fontFamily">@font/svn_regular</item>
+    </style>
+
+    //HeaderView
+    <declare-styleable name="HeaderView">
+        <attr name="hv_left_icon" format="reference" />
+        <attr name="hv_show_left_icon" format="boolean" />
+        <attr name="hv_center_text" format="string" />
+        <attr name="hv_right_icon" format="reference" />
+        <attr name="hv_show_right_icon" format="boolean" />
+        <attr name="hv_show_divider" format="boolean" />
+        <attr name="hv_show_notification_number" format="boolean" />
+    </declare-styleable>
+
+    //MissionView
+    <declare-styleable name="MissionView">
+        <attr name="mv_icon" format="reference" />
+        <attr name="mv_text" format="string" />
+        <attr name="mv_text_color" format="color" />
+        <attr name="mv_background" format="reference" />
+        <attr name="mv_show_text" format="boolean" />
+    </declare-styleable>
+
+    //TabView
+    <declare-styleable name="TabView">
+        <attr name="tv_text_first" format="string" />
+        <attr name="tv_text_second" format="string" />
+        <attr name="tv_text_third" format="string" />
+        <attr name="tv_text_fourth" format="string" />
+        <attr name="tv_show_center_second" format="boolean" />
+    </declare-styleable>
+
+    //OptionView
+    <declare-styleable name="OptionView">
+        <attr name="ov_label" format="string" />
+    </declare-styleable>
+
+    <!--    &lt;!&ndash;region edit profile &ndash;&gt;-->
+    <!--    <style name="NumberPicker">-->
+    <!--        <item name="android:colorControlNormal">@color/transparent</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="FBaseStyleText16Medium" parent="FBaseStyleMedium">-->
+    <!--        <item name="android:textSize">@dimen/fbase_text_size_16</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="FBaseStyleText18Medium" parent="FBaseStyleMedium">-->
+    <!--        <item name="android:textSize">@dimen/fbase_text_size_18</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="FBaseStyleText14Bold" parent="FBaseStyleBold">-->
+    <!--        <item name="android:textSize">@dimen/fbase_text_size_14</item>-->
+    <!--    </style>-->
+    <!--    &lt;!&ndash;endregion&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;region rating bar &ndash;&gt;-->
+    <!--    <style name="RatingBar" parent="Theme.AppCompat">-->
+    <!--        <item name="colorControlNormal">@color/rating_inactive</item>-->
+    <!--        <item name="colorControlActivated">@color/rating_active</item>-->
+    <!--    </style>-->
+    <!--    &lt;!&ndash;endregion&ndash;&gt;-->
+
+    <!--    <style name="CheckBox" parent="Theme.AppCompat.Light">-->
+    <!--        <item name="colorControlNormal">@color/gray</item>-->
+    <!--        <item name="colorControlActivated">@color/primary</item>-->
+    <!--    </style>-->
+</resources>

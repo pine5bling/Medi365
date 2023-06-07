@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_rectangle_white_bg_color_booking_stroke_corner_12"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivMission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/dimen_4"
+        android:src="@drawable/ic_booking" />
+
+    <TextView
+        android:id="@+id/tvMission"
+        style="@style/StyleText12SemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_4"
+        android:paddingTop="@dimen/dimen_8"
+        android:paddingBottom="@dimen/dimen_4"
+        android:text="@string/booking"
+        android:textColor="@color/color_btn_booking"/>
+
+</LinearLayout>

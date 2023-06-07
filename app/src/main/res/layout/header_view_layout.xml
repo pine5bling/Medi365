@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/blue">
+
+    <ImageView
+        android:id="@+id/ivHeaderLeftIcon"
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_18"
+        android:src="@drawable/ic_back_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHeaderCenterText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/svn_semi_bold"
+        android:gravity="center_vertical"
+        android:text="Cơ xương khớp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_text_size_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivHeaderRightIcon"
+        android:layout_width="?actionBarSize"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_16"
+        android:src="@drawable/ic_notification"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/vHeaderNotification"
+        android:layout_width="@dimen/dimen_1"
+        android:layout_height="@dimen/dimen_1"
+        android:layout_marginTop="@dimen/dimen_30"
+        app:layout_constraintEnd_toEndOf="@id/ivHeaderRightIcon"
+        app:layout_constraintStart_toStartOf="@id/ivHeaderRightIcon"
+        app:layout_constraintTop_toTopOf="@id/ivHeaderRightIcon" />
+
+    <FrameLayout
+        android:id="@+id/flHeaderNotificationNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_2"
+        android:background="@drawable/ic_bg_dot_notification_main"
+        android:padding="@dimen/dimen_2"
+        app:layout_constraintBottom_toBottomOf="@id/vHeaderNotification"
+        app:layout_constraintStart_toStartOf="@id/vHeaderNotification">
+
+        <TextView
+            android:id="@+id/tvHeaderNotificationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/svn_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLength="3"
+            android:paddingHorizontal="@dimen/dimen_2"
+            android:paddingVertical="@dimen/dimen_1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_text_size_8"
+            android:text="99+" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:backgroundTint="@color/divider"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">Medi365</string>
+    <string name="home">Trang chủ</string>
+    <string name="calender">Lịch hẹn</string>
+    <string name="news">Tin tức</string>
+    <string name="search">Tra cứu</string>
+    <string name="_search">Tìm kiếm ...</string>
+    <string name="menu">Menu</string>
+    <string name="doctor">Bác sĩ</string>
+    <string name="clinic">Phòng khám</string>
+    <string name="hospital">Bệnh viện</string>
+    <string name="booking">Đặt lịch</string>
+    <string name="advise">Tư vấn</string>
+    <string name="phone">Liên hệ</string>
+    <string name="service">Dịch vụ</string>
+    <string name="detail">Chi tiết</string>
+    <string name="faq">Hỏi đáp</string>
+    <string name="review">Nhận xét</string>
+    <string name="all">Tất cả</string>
+    <string name="label">Label</string>
+    <string name="name_user_default">Lê Thị Na</string>
+    <string name="phone_user_default">0123456789</string>
+    <string name="mep">Gói khám</string>
+    <string name="specialist">Chuyên khoa</string>
+    <string name="pharmacy">Nhà thuốc</string>
+    <string name="see_more">Xem thêm</string>
+    <string name="outstanding_doctor">Bác sĩ nổi bật</string>
+    <string name="outstanding_clinic">Phòng khám nổi bật</string>
+    <string name="outstanding_hospital">Bệnh viện nổi bật</string>
+    <string name="outstanding_mep">Gói khám nổi bật</string>
+    <string name="lookup_disease">Tra cứu Bệnh</string>
+    <string name="lookup_medicine">Tra cứu Thuốc</string>
+    <string name="lookup_doctor">Tra cứu Bác sĩ</string>
+    <string name="lookup_clinic">Tra cứu Phòng khám</string>
+    <string name="orthopedics">Chấn thương chỉnh hình</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

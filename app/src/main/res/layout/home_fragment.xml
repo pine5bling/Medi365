@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.home.HomeFragment">
+
+    <com.thomnt.medi365.widget.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hv_center_text="Đặt hẹn khám"
+        app:hv_right_icon="@drawable/ic_notification"
+        app:hv_show_divider="false"
+        app:hv_show_notification_number="true"
+        app:hv_show_right_icon="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_1"
+        android:background="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" />
+
+</LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:paddingStart="@dimen/dimen_20"
+        android:paddingTop="@dimen/dimen_12">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_70"
+            android:layout_height="@dimen/dimen_70"
+            android:src="@drawable/ic_avatar_default" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_14"
+            android:layout_marginBottom="@dimen/dimen_20"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/StyleWhiteText20SemiBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_user_default" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_4"
+                android:background="@drawable/shape_rectangle_white_bg_corner_4"
+                android:fontFamily="@font/svn_semi_bold"
+                android:paddingHorizontal="@dimen/dimen_8"
+                android:paddingTop="@dimen/dimen_1"
+                android:text="@string/phone_user_default"
+                android:textColor="@color/blue_10"
+                android:textSize="@dimen/dimen_text_size_14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_94"
+            android:background="@color/blue" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_14"
+            android:layout_marginBottom="@dimen/dimen_26"
+            app:cardCornerRadius="@dimen/dimen_corner_16"
+            app:cardElevation="@dimen/dimen_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_doctor" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/doctor" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_clinic" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/clinic" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_hospital" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/hospital" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_1"
+                    android:background="@color/green_divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_specialist" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/specialist" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_mep" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/mep" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dimen_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/green_divider" />
+
+                    <LinearLayout style="@style/HomeMissionViewFrame">
+
+                        <ImageView
+                            style="@style/HomeMissionViewIcon"
+                            android:src="@drawable/ic_pharmacy" />
+
+                        <TextView
+                            style="@style/HomeMissionViewTitle"
+                            android:text="@string/pharmacy" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_24"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_banner" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dimen_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvOutstandingTitle"
+            style="@style/StyleBlue10Text16SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_16"
+            android:text="@string/outstanding_doctor" />
+
+        <TextView
+            android:id="@+id/tvOutstandingSeeMore"
+            style="@style/StyleBlue2Text14SBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_14"
+            android:gravity="end"
+            android:text="@string/see_more" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDoctorBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        tools:listitem="@layout/outstanding_doctor_item" />
+
+</LinearLayout>

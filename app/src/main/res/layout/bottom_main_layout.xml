@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/llBottomMainFrame"
+    android:layout_marginTop="@dimen/dimen_2"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dimen_4">
+
+    <LinearLayout
+        android:id="@+id/llBottomMainHome"
+        style="@style/BottomMainViewFrame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivBottomMainHome"
+            style="@style/BottomMainViewIcon"
+            android:background="@drawable/ic_home_active" />
+
+        <TextView
+            android:id="@+id/tvBottomMainHome"
+            style="@style/BottomMainViewTitle"
+            android:text="@string/home"
+            android:textColor="@color/medi_main" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomMainCalender"
+        style="@style/BottomMainViewFrame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivBottomMainCalender"
+            style="@style/BottomMainViewIcon"
+            android:background="@drawable/ic_calendar"/>
+
+        <TextView
+            android:id="@+id/tvBottomMainCalender"
+            style="@style/BottomMainViewTitle"
+            android:text="@string/calender" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomMainNews"
+        style="@style/BottomMainViewFrame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivBottomMainNews"
+            style="@style/BottomMainViewIcon"
+            android:background="@drawable/ic_news" />
+
+        <TextView
+            android:id="@+id/tvBottomMainNews"
+            style="@style/BottomMainViewTitle"
+            android:text="@string/news" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomMainSearch"
+        style="@style/BottomMainViewFrame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivBottomMainSearch"
+            style="@style/BottomMainViewIcon"
+            android:background="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/tvBottomMainSearch"
+            style="@style/BottomMainViewTitle"
+            android:text="@string/search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomMainMenu"
+        style="@style/BottomMainViewFrame"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivBottomMainMenu"
+            style="@style/BottomMainViewIcon"
+            android:background="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/tvBottomMainMenu"
+            style="@style/BottomMainViewTitle"
+            android:text="@string/menu" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvTabLeft"
+        style="@style/StyleWhiteText16SemiBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_blue_bg_corner_left_16"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/dimen_8"
+        android:paddingBottom="@dimen/dimen_6"
+        tools:text="@string/detail" />
+
+    <TextView
+        android:id="@+id/tvTabCenter"
+        style="@style/StyleBlueText16SemiBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_bg_blue_stroke"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/dimen_8"
+        android:paddingBottom="@dimen/dimen_6"
+        tools:text="@string/service" />
+
+    <TextView
+        android:id="@+id/tvTabSecondCenter"
+        style="@style/StyleBlueText16SemiBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_bg_blue_stroke"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/dimen_8"
+        android:paddingBottom="@dimen/dimen_6"
+        tools:text="@string/faq" />
+
+    <TextView
+        android:id="@+id/tvTabRight"
+        style="@style/StyleBlueText16SemiBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_white_bg_blue_stroke_corner_right_16"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/dimen_8"
+        android:paddingBottom="@dimen/dimen_6"
+        tools:text="@string/review" />
+
+</LinearLayout>

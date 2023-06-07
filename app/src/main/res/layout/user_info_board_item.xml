@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:paddingStart="@dimen/dimen_20"
+    android:paddingTop="@dimen/dimen_12">
+
+    <ImageView
+        android:id="@+id/ivUserAvatar"
+        android:layout_width="@dimen/dimen_70"
+        android:layout_height="@dimen/dimen_70"
+        android:src="@drawable/ic_avatar_default" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_14"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUserName"
+            style="@style/StyleWhiteText20SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_user_default" />
+
+        <TextView
+            android:id="@+id/tvUserPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4"
+            android:background="@drawable/shape_rectangle_white_bg_corner_4"
+            android:fontFamily="@font/svn_semi_bold"
+            android:paddingHorizontal="@dimen/dimen_8"
+            android:paddingTop="@dimen/dimen_1"
+            android:text="@string/phone_user_default"
+            android:textColor="@color/blue_10"
+            android:textSize="@dimen/dimen_text_size_14" />
+
+    </LinearLayout>
+
+</LinearLayout>

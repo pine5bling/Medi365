@@ -1,0 +1,32 @@
+package com.thomnt.medi365.presentation.search.lookupdisease
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.thomnt.medi365.databinding.SearchClinicFragmentBinding
+import com.thomnt.medi365.model.mockClinicList
+import com.thomnt.medi365.presentation.home.ClinicAdapter
+
+class SearchClinicFragment: Fragment() {
+
+    private lateinit var binding: SearchClinicFragmentBinding
+    private val searchClinicAdapter = SearchClinicAdapter()
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                              savedInstanceState: Bundle?): View {
+        binding = SearchClinicFragmentBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.rvSearchClinic.apply {
+            adapter = searchClinicAdapter
+            layoutManager = LinearLayoutManager(context)
+        }
+        searchClinicAdapter.resetData(mockClinicList())
+    }
+
+}
