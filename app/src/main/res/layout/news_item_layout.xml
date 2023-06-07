@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dimen_12"
         android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/dimen_2"
         android:maxLines="5"
         tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel maximus orci. Praesent libero erat, hendrerit at sem ac, ultrices pellentesque risus. Praesent in urna ac leo auctor tristique sollicitudin a odio. Nulla facilisi. Curabitur et auctor mauris. Integer at ipsum vitae leo auctor maximus a eget risus." />
 

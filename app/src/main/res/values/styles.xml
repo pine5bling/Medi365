@@ -24,6 +24,12 @@
         <item name="android:textColor">@color/blue_10</item>
     </style>
 
+    <style name="StyleBlue1Text16SemiBold">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/blue_1</item>
+    </style>
+
     <style name="StyleBlue2Text14SBold">
         <item name="fontFamily">@font/svn_bold</item>
         <item name="android:textSize">@dimen/dimen_text_size_14</item>
@@ -119,6 +125,12 @@
         <item name="android:textColor">@color/medi_main</item>
     </style>
 
+    <style name="StyleMediMainText16Semi">
+        <item name="fontFamily">@font/svn_semi_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/medi_main</item>
+    </style>
+
     <style name="StyleMGreenDark10Regular">
         <item name="fontFamily">@font/svn_regular</item>
         <item name="android:textSize">@dimen/dimen_text_size_10</item>
@@ -129,6 +141,12 @@
         <item name="fontFamily">@font/svn_regular</item>
         <item name="android:textSize">@dimen/dimen_text_size_12</item>
         <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="StyleDividerLightText16Bold">
+        <item name="fontFamily">@font/svn_bold</item>
+        <item name="android:textSize">@dimen/dimen_text_size_16</item>
+        <item name="android:textColor">@color/divider_light</item>
     </style>
 
     <style name="StyleRed10SemiBold">
