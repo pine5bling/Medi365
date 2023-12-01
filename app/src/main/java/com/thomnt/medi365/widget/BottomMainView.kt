@@ -101,16 +101,6 @@ class BottomMainView constructor(
         }
     }
 
-    private fun getTab(position: Int): TAB {
-        return when(position) {
-            1 -> TAB.CALENDER
-            2 -> TAB.NEWS
-            3 -> TAB.SEARCH
-            4 -> TAB.MENU
-            else -> TAB.HOME
-        }
-    }
-
     private fun setDefaultColor() {
         ivHome.setBackgroundResource(R.drawable.ic_home)
         ivCalender.setBackgroundResource(R.drawable.ic_calendar)
@@ -123,6 +113,16 @@ class BottomMainView constructor(
         tvNews.setTextColorByNeutral7()
         tvSearch.setTextColorByNeutral7()
         tvMenu.setTextColorByNeutral7()
+    }
+
+    private fun getTab(position: Int): TAB {
+        return when(position) {
+            1 -> TAB.CALENDER
+            2 -> TAB.NEWS
+            3 -> TAB.SEARCH
+            4 -> TAB.MENU
+            else -> TAB.HOME
+        }
     }
 
     fun setTabSelected(position: Int) {

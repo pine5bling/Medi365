@@ -194,7 +194,6 @@
     </style>
 
     // BottomMainView
-
     <style name="BottomMainViewFrame">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">@dimen/dimen_56</item>

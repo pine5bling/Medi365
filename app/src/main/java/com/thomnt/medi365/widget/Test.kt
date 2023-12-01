@@ -243,3 +243,89 @@ class Test {
 //        setTextColor(getAppColor(R.color.medi_main))
 //    }
 //}
+
+
+//package com.thomnt.temptic
+//
+//import android.os.Bundle
+//import android.view.MenuItem
+//import androidx.appcompat.app.AppCompatActivity
+//import androidx.fragment.app.Fragment
+//import androidx.viewpager.widget.ViewPager
+//import com.google.android.material.navigation.NavigationBarView
+//import com.thomnt.temptic.databinding.MainActivityBinding
+//import com.thomnt.temptic.presentation.*
+//import com.thomnt.temptic.presentation.home.HomeFragment
+//import com.thomnt.temptic.widget.BottomMainView
+//import com.thomnt.temptic.widget.ViewPagerAdapter
+//
+//class MainActivity : AppCompatActivity() {
+//
+//    private lateinit var binding: MainActivityBinding
+//    private var viewPagerAdapter: ViewPagerAdapter = ViewPagerAdapter(supportFragmentManager)
+//
+//    private var homeFra = HomeFragment()
+//    private var storeFra = StoreFragment()
+//    private var orderFra = OrderFragment()
+//    private var eventFra = EventFragment()
+//    private var personalFra = PersonalFragment()
+//    //    private var fragmentList = mutableListOf<Fragment>(HomeFragment(), StoreFragment(), OrderFragment(), EventFragment(), PersonalFragment())
+//    private var pageIndex: ((Int) -> Unit)? = null
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        binding = MainActivityBinding.inflate(layoutInflater)
+//        setContentView(binding.root)
+//
+//        setupBottomMainView()
+//        setupViewPager()
+//    }
+//
+//    fun setupBottomMainView(){
+//        binding.bmvBottomBar.setOnItemsClick {
+//            binding.vpMain.currentItem = getPosition(it)
+//        }
+//    }
+//
+//    fun setupViewPager() {
+//        viewPagerAdapter.addTab(fragmentList)
+//
+//        binding.vpMain.apply {
+//            adapter = viewPagerAdapter
+//            addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
+//                override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {
+//                    TODO("Not yet implemented")
+//                }
+//
+//                override fun onPageSelected(position: Int) {
+//                    binding.bmvBottomBar.setItemSelected(getTab(position))
+//                }
+//
+//                override fun onPageScrollStateChanged(state: Int) {
+//                    TODO("Not yet implemented")
+//                }
+//
+//            })
+//        }
+//    }
+//
+//    private fun getTab(position: Int): BottomMainView.TAB {
+//        return when (position) {
+//            1 -> BottomMainView.TAB.STORE
+//            2 -> BottomMainView.TAB.ORDER
+//            3 -> BottomMainView.TAB.EVENT
+//            4 -> BottomMainView.TAB.PERSONAL
+//            else -> BottomMainView.TAB.HOME
+//        }
+//    }
+//
+//    fun getPosition(tab: BottomMainView.TAB): Int {
+//        return when (tab) {
+//            BottomMainView.TAB.HOME -> 0
+//            BottomMainView.TAB.STORE -> 1
+//            BottomMainView.TAB.ORDER -> 2
+//            BottomMainView.TAB.EVENT -> 3
+//            BottomMainView.TAB.PERSONAL -> 4
+//        }
+//    }
+//}

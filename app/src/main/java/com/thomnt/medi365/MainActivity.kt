@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
     private var searchFra = SearchFragment()
     private var menuFra = MenuFragment()
 
-    var currentTab = 0
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = MainActivityBinding.inflate(layoutInflater)
